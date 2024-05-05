@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>CADASTRO DE NOTAS</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="../../../css/materialize.min.css"  media="screen,projection"/>
+    </head>
+
+    <body>    
+        <div id="formulario" class="container">
+            <h3 class="main-title center">CADASTRAR NOTA PARA: <span th:text="${aluno.nome}"></span></h3>
+            <div class="row">
+                <form class="col s12" action="#" th:action="@{'/nota/salvar/'+${aluno.id}}" th:object="${nota}" method="post">
+                    <div class="section">
+                        <h5>REGISTRE A NOTA</h5>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select th:field="*{nome}" id="nome" class="browser-default">
+                                    <option value="">Escolha uma Disciplina</option>
+                                    <option th:each="disciplina : ${aluno.disciplinas}"
+                                            th:value="${disciplina.nome}"
+                                            th:text="${disciplina.nome}">                                                
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="valor" type="number" class="validate" th:value="${valor}" name="valor"/>
+                                <label for="valor">Valor</label>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">SALVAR</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="../../../js/materialize.min.js"></script>
+    </body>
+</html>

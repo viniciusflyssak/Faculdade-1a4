@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Panem - Venda de pães artesanais</title>
+  </head>
+  <header id="header"></header>
+  <body>
+    <h4 class="right w-80 mt-5">
+      Campos marcados com (*) são de prenchimento obrigatório
+    </h4>
+    <form class="form-formulario">
+      <div>
+        <div class="flex flex_row">
+          <h2></h2>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Apelido*</label>
+          <input
+            placeholder="Apelido"
+            class="w-80 mt-3 required"
+            type="text"
+            name="apelido"
+            required
+          />
+          <span class="error-message" id="erro-apelido"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Nome completo*</label>
+          <input
+            placeholder="Nome"
+            class="w-80 mt-3 required"
+            type="text"
+            name="nome"
+            required
+          />
+          <span class="error-message" id="erro-nome"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Data de Nascimento*</label>
+          <input
+            placeholder="Data"
+            class="w-80 mt-3 required"
+            type="date"
+            name="data-nascimento"
+            required
+          />
+          <span class="error-message" id="erro-data-nasc"></span>
+        </div>
+        <div class="flex flex_row">
+          <label for="">Gênero</label>
+          <div class="flex flex_row">
+            <div class="flex flex_row">
+              <input
+                class="w-20 mr-1 mt-3 required"
+                type="radio"
+                name="tipo"
+                id="masculino"
+                placeholder="0"
+                value="masculino"
+                required
+              />
+              <label class="w-80" for="">Masculino</label>
+            </div>
+            <div class="flex flex_row">
+              <input
+                class="w-20 mr-1 mt-3"
+                type="radio"
+                name="tipo"
+                id="feminino"
+                placeholder="0"
+                value="feminino"
+                required
+              />
+              <label class="w-80" for="">Feminino</label>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Telefone*</label>
+          <input
+            placeholder="Telefone"
+            class="w-80 mt-3"
+            type="text"
+            name="telefone"
+            required
+          />
+          <span class="error-message" id="erro-telefone"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Email*</label>
+          <input
+            placeholder="Email"
+            class="w-80 mt-3 required"
+            type="email"
+            name="email"
+            required
+          />
+          <span class="error-message" id="erro-email"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Senha*</label>
+          <input
+            placeholder="Senha"
+            class="w-80 mt-3 required"
+            type="password"
+            name="senha"
+            required
+          />
+          <span class="error-message" id="erro-senha"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Confirmar senha*</label>
+          <input
+            placeholder="Confirmar Senha"
+            class="w-80 mt-3 required"
+            type="password"
+            name="confirmar-senha"
+            required
+          />
+          <span class="error-message" id="erro-confirmar-senha"></span>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex flex_row">
+          <h2>Endereço</h2>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Rua*</label>
+          <input
+            placeholder="Rua"
+            class="w-80 mt-3 required"
+            type="text"
+            name="rua"
+            required
+          />
+          <span class="error-message" id="erro-rua"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Número*</label>
+          <input
+            placeholder="Numero"
+            class="w-80 mt-3 required"
+            type="text"
+            name="numero"
+            required
+          />
+          <span class="error-message" id="erro-numero"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Bairro*</label>
+          <input
+            placeholder="Bairro"
+            class="w-80 mt-3 required"
+            type="text"
+            name="bairro"
+            required
+          />
+          <span class="error-message" id="erro-bairro"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Cidade*</label>
+          <input
+            placeholder="Cidade"
+            class="w-80 mt-3 required"
+            type="text"
+            name="cidade"
+            required
+          />
+          <span class="error-message" id="erro-cidade"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Estado*</label>
+          <input
+            placeholder="Estado"
+            class="w-80 mt-3 required"
+            type="text"
+            name="estado"
+            required
+          />
+          <span class="error-message" id="erro-estado"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">CEP*</label>
+          <input
+            placeholder="CEP"
+            class="w-80 mt-3 required"
+            type="text"
+            name="cep"
+            required
+          />
+          <span class="error-message" id="erro-cep"></span>
+        </div>
+        <div class="flex flex_row">
+          <label class="w-20" for="">Complemento</label>
+          <input
+            placeholder="Complemento"
+            class="w-80 mt-3"
+            type="text"
+            name="complemento"
+          />
+        </div>
+      </div>
+      <button class="w-100 btn btn-success btnEnviar" type="submit">
+        Enviar
+      </button>
+    </form>
+  </body>
+  <section id="footer"></section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace();
+  </script>
+  <script src="./js/app.js" type="module"></script>
+  <script src="./js/formulario.js"></script>
+</html>

@@ -1,0 +1,6 @@
+adapter\IConta.class
+adapter\ContaPoupanca.class
+adapter\ContaSalario.class
+adapter\PoupancaAdapter.class
+adapter\ContaCorrente.class
+adapter\Main.class

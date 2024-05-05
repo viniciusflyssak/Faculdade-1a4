@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1633571058 source:d:\_utfpr\disciplinas\fundamentos_tecnologia_em_ads\aulas\2021_2\2021_10_06\prjlinguagemc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

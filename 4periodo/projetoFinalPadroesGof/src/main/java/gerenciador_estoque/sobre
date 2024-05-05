@@ -1,0 +1,27 @@
+// Padrão empregado: Singleton
+// Motivo: Assim é possível manter uma boa consistência dos dados, onde os produtos são mantidos em uma única lista universal.
+// Problema resolvido: Para registrar corretamente um estoque, ao alterar um item, deve ser contabilizado a alteração globalmente 
+// no projeto. Utilizando o padrão Singleton, consigo utilizar apenas uma instância de estoque no projeto inteiro, mantendo corretamente 
+// a integridade.
+// Principal característica: De acordo com o site DevMedia, "O Padrão Singleton tem como definição garantir que uma classe tenha apenas uma instância de si mesma e 
+// que forneça um ponto global de acesso a ela. Ou seja, uma classe gerencia a própria instância dela além de evitar que qualquer outra classe crie uma instância dela"
+// Fonte: https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392#:~:text=O%20Padrão%20Singleton%20tem%20como,classe%20crie%20uma%20instância%20dela.
+
+// Padrão empregado: Observer
+// Motivo: Assim é possível notificar para todos os clientes interessados sobre as alterações de quantidade que acontecem 
+// nos produtos.
+// Problema solucionado: "Como cliente, desejo ficar ciente sobre as alterações na quantidade do produto"
+// Principais características: De acordo com Diogo Souza, "Um padrão de projeto de software em que um objeto, chamado “subject”, mantém uma lista de seus dependentes, chamados de “observers”, e 
+// os notifica automaticamente de eventuais mudanças de estado, geralmente, chamando um dos seus métodos. É usado principalmente para implementar sistemas de tratamento de eventos distribuídos."
+// Fonte: http://www.linhadecodigo.com.br/artigo/3643/padroes-em-java-observer.aspx
+
+// Padrão empregado: Memento
+// Motivo: É comum que funcionários cometam erros ao editar algum dado no sistema, com o memento, é possível reverter sem problema algum
+// Problema solucionado: "Como funcionário, posso errar ao editar um item e salvar sem perceber, gostaria de poder voltar atrás nesses casos!"
+// Principais características: De acordo com o site "Refactoring Guru", "O Memento é um padrão de projeto comportamental que permite que você salve e restaure o estado anterior de um objeto 
+// sem revelar os detalhes de sua implementação"
+// Fonte: https://refactoring.guru/pt-br/design-patterns/memento
+
+// Minha visão sobre padrões de projeto: Creio que os padrões de projeto se demonstram extremamente úteis para a escrita de códigos limpos.
+// Aplicando corretamente os padrões, também é possível otimizar de forma ideal os projetos, além de deixar os mesmos mais legíveis, tornando-se
+// de extrema utilidade e importância ao longo do tempo, facilitando para novos desevolvedores compreenderem rapidamente o funcionamento do projeto.

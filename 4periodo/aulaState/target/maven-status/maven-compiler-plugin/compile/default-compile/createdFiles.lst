@@ -1,0 +1,6 @@
+com\utfpr\aulastate\PlayingState.class
+com\utfpr\aulastate\App.class
+com\utfpr\aulastate\ReadyState.class
+com\utfpr\aulastate\State.class
+com\utfpr\aulastate\Player.class
+com\utfpr\aulastate\LockedState.class

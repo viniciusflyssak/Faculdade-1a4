@@ -1,0 +1,4 @@
+1. (Ler dados de entrada) Receber dois números (Num1 e Num2) que serão utilizados para descobrir o MDC (máximo divisor comum)
+2. (Encontrar o resto) - Dividir Num1 por Num2 e atribuir a Resto o resto da divisão (0 <= resto < Num2)
+3. (O resto é zero?) - Se resto for igual a zero, o algoritmo termina; Num2 é o valor procurado.
+4. (Substituir) - Atribuir a Num1 o valor de Num2 e a Num2 o valor de Resto, voltando ao passo 1.

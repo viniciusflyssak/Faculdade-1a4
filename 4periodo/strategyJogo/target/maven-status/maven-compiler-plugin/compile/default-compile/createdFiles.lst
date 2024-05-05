@@ -1,0 +1,6 @@
+com\utfpr\strategyjogo\EstrategiaJoystick.class
+com\utfpr\strategyjogo\ControleJogo.class
+com\utfpr\strategyjogo\EstrategiaTeclado.class
+com\utfpr\strategyjogo\Main.class
+com\utfpr\strategyjogo\EstrategiaGesto.class
+com\utfpr\strategyjogo\IInteracao.class

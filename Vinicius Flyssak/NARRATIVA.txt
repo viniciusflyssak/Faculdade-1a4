@@ -1,0 +1,4 @@
+1 - Receber valor do salário;  
+2 - Se funcionário possuir salário até 500 reais, aumentar 20%: salário + (salário * 0,20);
+3 - Se funcionário possuir salário superior a 500 reais, aumentar 10%: salário + (salário * 0,10);
+3 - Apresentar novo salário;

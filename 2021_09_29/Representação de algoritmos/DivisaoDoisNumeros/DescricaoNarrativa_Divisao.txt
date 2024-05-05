@@ -1,0 +1,3 @@
+1. Receber dois números que serão divididos, sendo o primeiro dividido pelo segundo;
+2. Se o segundo número for igual a zero, não poderá fazer a divisão, pois não é possível realizar a divisão de um número por zero;
+3. Caso contrário, se o segundo número for diferente zero, dividir o primeiro pelo segundo e mostrar o resultado da divisão.

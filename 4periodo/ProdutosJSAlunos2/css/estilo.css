@@ -1,0 +1,18 @@
+.hidden{
+    visibility: collapse;
+}
+
+.error-text{
+    font-size:12px;
+    color:red;
+}
+
+.padding-left{
+    padding-left: .7rem;
+}
+
+.price-row,
+.quantity,
+.total-row {
+  text-align: right;
+}

@@ -1,0 +1,10 @@
+com\utfpr\trabalho_zoo\model\Servico.class
+com\utfpr\trabalho_zoo\repositorys\AnimalRepository.class
+com\utfpr\trabalho_zoo\codecs\AnimalCodec.class
+com\utfpr\trabalho_zoo\App.class
+com\utfpr\trabalho_zoo\model\Animal.class
+com\utfpr\trabalho_zoo\codecs\FuncionarioCodec.class
+com\utfpr\trabalho_zoo\repositorys\ServicoRepository.class
+com\utfpr\trabalho_zoo\codecs\ServicoCodec.class
+com\utfpr\trabalho_zoo\model\Funcionario.class
+com\utfpr\trabalho_zoo\repositorys\FuncionarioRepository.class

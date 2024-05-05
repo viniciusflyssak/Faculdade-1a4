@@ -1,0 +1,4 @@
+1. Obter duas notas de provas de um aluno
+2. Calcular a média aritmética das notas: media = (Nota1 + Nota2)/2
+3. Mostrar o resultado do cálculo
+4. Se a média for maior que 7, mostrar que o aluno foi aprovado, senão, que ele foi reprovado.

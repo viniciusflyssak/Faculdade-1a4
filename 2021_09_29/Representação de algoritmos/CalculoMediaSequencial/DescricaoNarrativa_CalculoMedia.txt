@@ -1,0 +1,3 @@
+1. Obter duas notas de prova de um aluno, solicitando ao usuário.
+2. Calcular a média aritmética das duas notas: nota1 + nota2 / 2
+3. Mostrar o resultado do cálculo ao usuário.
